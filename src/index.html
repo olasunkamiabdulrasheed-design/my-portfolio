@@ -330,15 +330,15 @@
     </div>
   </section>
 
-  <!-- ==================== CONTACT SECTION ==================== -->
-   <footer class="bg-gray-900 text-white pt-16 pb-8 px-6 md:px-12 lg:px-24">
+    <!-- ==================== FOOTER SECTION ==================== -->
+  <footer class="bg-gray-900 text-white pt-16 pb-8 px-6 md:px-12 lg:px-24">
     <div class="max-w-7xl mx-auto">
       
-      <!-- Main Footer Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-gray-800">
+      <!-- Main Footer Grid - 2 columns on mobile, 4 on desktop -->
+      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10 pb-12 border-b border-gray-800">
         
         <!-- Column 1: Brand & Bio -->
-        <div>
+        <div class="col-span-2 md:col-span-1">
           <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight mb-4">
             <span class="bg-gradient-to-r from-indigo-400 to-indigo-300 bg-clip-text text-transparent">Eddie</span>
             <span class="text-indigo-400">Mich</span>
@@ -370,7 +370,7 @@
           </ul>
         </div>
         
-        <!-- Column 3: Projects Links -->
+        <!-- Column 3: My Projects (sits beside Quick Links on mobile) -->
         <div>
           <h3 class="text-lg font-semibold text-white mb-5 relative inline-block">
             My Projects
@@ -386,7 +386,7 @@
         </div>
         
         <!-- Column 4: Contact & Social -->
-        <div>
+        <div class="col-span-2 md:col-span-1">
           <h3 class="text-lg font-semibold text-white mb-5 relative inline-block">
             Connect With Me
             <span class="absolute -bottom-2 left-0 w-8 h-0.5 bg-indigo-500 rounded-full"></span>
@@ -447,7 +447,6 @@
       
     </div>
   </footer>
-
   <!-- ==================== JAVASCRIPT ==================== -->
   <script>
     // Initialize AOS animations
